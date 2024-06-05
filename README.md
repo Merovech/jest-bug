@@ -1,5 +1,5 @@
 ### Description
-This is repo for jest bug XXX.  It shows that the `passWithNoTests` argument -- whether on the command line or in the config file -- does nothing when confronted with an empty file.
+This is repo for [jest bug 15107](https://github.com/jestjs/jest/issues/15107).  It shows that the `passWithNoTests` argument -- whether on the command line or in the config file -- does nothing when confronted with an empty file.
 
 I believe the expected behavior should be that if the file is empty it is treated as having no tests.
 
